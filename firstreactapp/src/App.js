@@ -1,7 +1,13 @@
 
+import Cold from  "./Cold";
+
+
 function App() {
   return (
-   <h1>first react application</h1>
+    <>
+   <Cold />
+   <h1>there is cold </h1>
+   </>
   );
 }
 
