@@ -45,3 +45,31 @@ function App() {
 }
 
 export default App
+
+//------------- Random color code by using below code------------////
+
+// import React, { useState } from 'react';
+
+// const BackgroundChanger = () => {
+//   // State to hold the background color
+//   const [backgroundColor, setBackgroundColor] = useState('#ffffff'); // Initial background color is white
+
+//   // Function to handle background color change
+//   const changeBackgroundColor = () => {
+//     // Generate a random hex color code
+//     const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+    
+//     // Set the new background color
+//     setBackgroundColor(randomColor);
+//   };
+
+//   return (
+//     <div style={{ backgroundColor: backgroundColor, height: '100vh', textAlign: 'center', paddingTop: '50px' }}>
+//       <h1>Background Changer</h1>
+//       <p>Current Background Color: {backgroundColor}</p>
+//       <button onClick={changeBackgroundColor}>Change Background Color</button>
+//     </div>
+//   );
+// };
+
+// export default BackgroundChanger;
